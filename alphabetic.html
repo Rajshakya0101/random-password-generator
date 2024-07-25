@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="shortcut icon" href="/media/reset-password.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page-type="alphabetic">
+    <nav>
+        <img src="/media/Logo_R.png" alt="">
+        <div class="nav-attribute">
+            <a href="/index.html"><p>Home</p><div class="home-underline"></div></a>
+            <a href=""><p>About Us</p><div class="home-underline"></div></a>
+            <a id="example"><p>Formats</p><div class="home-underline"></div></a>
+            <div class="nav-underline"></div>
+        </div>
+        <button class="contact_btn">Contact me</button>
+        <div class="sub-menu-wrap" id="sub-menu">
+            <div class="sub-menu">
+                <a href="/alpha_numeric.html" class="sub-menu-link">
+                    <p>Alpha-Numeric Password</p>
+                    <span>></span>
+                </a>
+                <hr/>
+                <a href="/numeric.html" class="sub-menu-link">
+                    <p>Numeric Password</p>
+                    <span>></span>
+                </a>
+                <hr/>
+                <a href="/index.html" class="sub-menu-link">
+                    <p>Strong Password</p>
+                    <span>></span>
+                </a>
+                <hr/>
+                <a href="/symbolic.html" class="sub-menu-link">
+                    <p>Symbolic Password</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Generate a <br/> <h1 class="rand">Alphabetic Password</h1></h1>
+        <div class="under-line"></div>
+        <div class="playground">
+            <input id="password" type="text" placeholder="Password">
+            <img id="copy" src="/media/icons8-copy-96.png" alt="">
+        </div>
+        <button id="generate"><img src="/media/lightning.png" alt="">Generate Password</button>
+    </div>
+    <footer>
+        <p>Developed with ❤️ By Developer Raj</p>
+        <div class="social-accounts">
+            <a href="https://www.github.com/rajshakya0101" target="_blank"><img src="/media/github.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/raj-shakya-8b205225b" target="_blank"><img src="/media//linkedin.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/dashing_raj__143" target="_blank"><img src="/media/insta.png" alt="Instagram"></a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
